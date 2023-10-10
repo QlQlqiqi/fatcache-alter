@@ -22,7 +22,7 @@
 
 static stats_info st_info;
 static stats_info sc_st_info[SLABCLASS_MAX_ID+1];
-struct settings settings;
+extern struct settings settings;
 
 buffer *
 stats_alloc_buffer(int n)
